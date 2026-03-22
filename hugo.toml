@@ -1,6 +1,8 @@
-baseURL = "https://kai.github.io/"
+# 这里的 Kaitaolie 必须和你的 GitHub 用户名大小写完全一致
+baseURL = "https://Kaitaolie.github.io/" 
 title = "Kai's Tech Log"
 theme = "hugo-coder"
+# ... 后面保持不变
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
 enableEmoji = true

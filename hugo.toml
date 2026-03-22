@@ -54,4 +54,4 @@ url = "posts/"
 [[menu.main]]
 name = "关于我"
 weight = 2
-url = "about/"# Updated at 03/23/2026 00:22:49
+url = "about/"

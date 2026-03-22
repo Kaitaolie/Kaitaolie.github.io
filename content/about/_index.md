@@ -1,77 +1,13 @@
 ---
-title: "关于我"
+title: "About"
 date: 2026-03-22T00:00:00Z
 draft: false
 ---
 
-# 关于我
+# About Me
 
-你好！我是Kai，欢迎来到我的个人空间。
+Hi, I'm Kai, a freshman undergraduate student at Northeast Forestry University, majoring in Geographic Information Systems (GIS).
 
-## 👨‍🎓 教育背景
+This is my personal blog where I share my thoughts, projects, and learning experiences in technology and GIS.
 
-**东北林业大学** - 地理信息系统专业本科生
-
-在这里，我学习了：
-- 地理信息系统原理与应用
-- 空间数据分析与处理
-- 遥感技术与应用
-- 编程基础与算法设计
-
-## 💻 技术技能
-
-### 编程语言
-- **C/C++** - 系统编程和性能优化
-- **Python** - 数据处理和自动化脚本
-- **JavaScript** - Web开发和前端交互
-
-### 工具与平台
-- **Linux/WSL** - 开发环境和服务器管理
-- **Git** - 版本控制和协作开发
-- **Docker** - 容器化部署
-- **VS Code** - 主要开发工具
-
-### GIS专业技能
-- **ArcGIS/QGIS** - 地理信息系统软件
-- **空间数据库** - PostgreSQL/PostGIS
-- **地图可视化** - WebGIS开发
-- **遥感数据处理** - ENVI、ERDAS等
-
-## 🎯 职业目标
-
-作为一名GIS专业的学生，我的目标是：
-
-1. **成为优秀的GIS工程师** - 掌握空间数据处理的核心技术
-2. **学习自动化技术** - 提高工作效率，简化重复性任务
-3. **参与开源项目** - 为技术社区贡献力量
-4. **持续学习** - 跟上技术发展的步伐
-
-## 🌟 兴趣爱好
-
-- **技术探索** - 学习新工具和新技术
-- **开源贡献** - 参与开源项目开发
-- **写作分享** - 通过博客记录学习过程
-- **户外活动** - 喜欢徒步和自然探索
-
-## 📈 学习计划
-
-### 短期目标 (2026年)
-- 深入学习GIS算法和数据结构
-- 掌握Python在GIS中的应用
-- 完成个人项目并开源
-
-### 长期规划
-- 获得GIS相关认证
-- 参与实际项目开发
-- 建立技术影响力
-
-## 📞 联系方式
-
-- **GitHub**: [github.com/Kaitaolie](https://github.com/Kaitaolie)
-- **邮箱**: 可以通过GitHub联系
-
----
-
-*"代码如诗，技术如画。每一行代码都是对逻辑美的追求，每一个项目都是对创新的探索。"*
-
-感谢你花时间了解我！如果你对GIS、编程或技术有任何问题，欢迎在评论区或GitHub上与我交流。
+Welcome to explore my journey!

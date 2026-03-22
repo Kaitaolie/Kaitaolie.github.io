@@ -1,8 +1,6 @@
-# 这里的 Kaitaolie 必须和你的 GitHub 用户名大小写完全一致
-baseURL = "https://Kaitaolie.github.io/" 
+baseURL = "https://Kaitaolie.github.io/"
 title = "Kai's Tech Log"
 theme = "hugo-coder"
-# ... 后面保持不变
 languageCode = "zh-cn"
 defaultContentLanguage = "zh-cn"
 enableEmoji = true
@@ -13,23 +11,20 @@ pagerSize = 6
 [markup]
 [markup.highlight]
 noClasses = false
-# 确保代码块背景色好看
-style = "monokai" 
+style = "monokai"
 
 [markup.goldmark]
 [markup.goldmark.renderer]
-unsafe = true # 允许在 Markdown 中使用 HTML
+unsafe = true
 
 [params]
 author = "Kai"
-description = "NEFU GIS | 自动化工程师进修中"
+description = "NEFU GIS"
 keywords = "WSL, Termux, C/C++, GIS, 自动化"
 info = ["GIS Undergraduate at NEFU", "Tech enthusiast"]
 avatarURL = "images/avatar.jpg"
 dateFormat = "2006年01月02日"
 since = 2026
-
-# 颜色模式：auto 会跟随系统，如果你喜欢极简黑白，可以固定为 "dark" 或 "light"
 colorScheme = "auto"
 hideColorSchemeToggle = false
 
@@ -38,14 +33,12 @@ category = "categories"
 series = "series"
 tag = "tags"
 
-# --- 社交链接配置 ---
 [[params.social]]
 name = "Github"
 icon = "fa-brands fa-github fa-2x"
 weight = 1
-url = "https://github.com/Kaitaolie/" # 这里记得改
+url = "https://github.com/Kaitaolie/"
 
-# --- 菜单配置 ---
 [[menu.main]]
 name = "文章"
 weight = 1
@@ -54,4 +47,4 @@ url = "posts/"
 [[menu.main]]
 name = "关于我"
 weight = 2
-url = "about/"# Updated at 03/23/2026 00:22:49
+url = "about/"

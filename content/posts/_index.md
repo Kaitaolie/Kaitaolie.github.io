@@ -10,9 +10,9 @@ Welcome to my collection of blog posts! Here you'll find my thoughts, tutorials,
 
 ---
 
-> *"The beautiful thing about learning is that no one can take it away from you."*
+> *"海内存知己，天涯若比邻。"*
 >
-> — B.B. King
+> — 王勃
 
 ---
 

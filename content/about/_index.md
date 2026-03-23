@@ -8,4 +8,8 @@ draft: false
 
 Hi, I'm Kai, a freshman undergraduate student at Northeast Forestry University, majoring in Geographic Information Systems (GIS).
 
+---
+
+*"海内存知己，天涯若比邻。"*
+
 This is my personal blog where I share my thoughts and projects.

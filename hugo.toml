@@ -25,6 +25,7 @@ dateFormat = "2006-01-02"
 since = 2026
 colorScheme = "auto"
 hideColorSchemeToggle = false
+customCSS = ["css/custom.css"]
 
 [taxonomies]
 category = "categories"

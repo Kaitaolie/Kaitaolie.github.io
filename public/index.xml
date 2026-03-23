@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kai&#39;s Tech Log</title>
+    <link>http://localhost:8934/</link>
+    <description>Recent content on Kai&#39;s Tech Log</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:8934/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基于 WSL 在 VS Code 上配置 C/C&#43;&#43; 开发环境</title>
+      <link>http://localhost:8934/posts/26032301/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:8934/posts/26032301/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;：在 Windows 环境下，通过 WSL (Windows Subsystem for Linux) 配合 VS Code，可以获得接近原生的 Linux 开发体验。本文记录如何在 WSL 中配置高效的 C/C++ 开发环境。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;前言&#34;&gt;&#xD;&#xA;  前言&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e5%89%8d%e8%a8%80&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;WSL&lt;/strong&gt; 是 &lt;strong&gt;Windows Subsystem for Linux&lt;/strong&gt;（Windows 的 Linux 子系统）的缩写，是 Windows 上的一项原生功能。通过该功能，你可以实现在 Windows 系统上运行 Linux 环境而不需要开启虚拟机，可谓十分方便。&lt;/p&gt;&#xA;&lt;p&gt;鉴于 Linux 环境下进行 C/C++ 开发极其友好，本文主要探讨通过 &lt;strong&gt;VS Code + WSL&lt;/strong&gt; 配置 C/C++ 开发环境的可行性。&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;为什么选择-wsl&#34;&gt;&#xD;&#xA;  为什么选择 WSL？&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%80%89%e6%8b%a9-wsl&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h3&gt;&#xD;&#xA;&lt;p&gt;相较于在 Windows 上使用 MinGW 进行编译开发，基于 WSL 的开发环境主要有以下优点：&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

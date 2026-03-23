@@ -1,0 +1,16 @@
+/* 调整根节点字体大小，14px 或 15px 通常比较清爽 */
+html {
+    font-size: 9px; 
+}
+
+/* 针对代码块单独微调（如果觉得代码太小可以保持 14px） */
+code, pre {
+    font-size: 0.9em;
+}
+
+/* 针对移动端适配，如果手机上看太小了可以适当调大 */
+@media only screen and (max-width: 768px) {
+    html {
+        font-size: 10px;
+    }
+}

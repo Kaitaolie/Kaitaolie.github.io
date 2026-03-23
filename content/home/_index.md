@@ -1,23 +1,21 @@
 ---
-title: "首页"
+title: "Home"
 date: 2026-03-22T00:00:00Z
 draft: false
 ---
 
-# 欢迎来到我的博客
+# Welcome to My Blog
 
-你好！我是Kai，一名GIS专业的大学生和技术爱好者。
-这里是首页！！！
+Hello! I'm Kai, a GIS undergraduate student and tech enthusiast.
 
+## Quick Links
 
-## 🔗 快速链接
-
-- [ 关于我](/about/) - 了解更多个人信息
-- [ 文章列表](/posts/) - 浏览所有文章
-- [ 标签云](/tags/) - 按主题浏览内容
+- [About](/about/) - Learn more about me
+- [Posts](/posts/) - Browse all articles
+- [Tags](/tags/) - Browse by topic
 
 ---
 
-> "技术改变世界，学习成就未来"
+*"Technology changes the world, learning shapes the future"*
 
-欢迎访问我的博客，共同探索技术的无限可能！
+Welcome to my blog!

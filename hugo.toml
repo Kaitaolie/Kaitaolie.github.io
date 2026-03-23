@@ -1,8 +1,8 @@
 baseURL = "https://Kaitaolie.github.io/"
 title = "Kai's Tech Log"
 theme = "hugo-coder"
-languageCode = "zh-cn"
-defaultContentLanguage = "zh-cn"
+languageCode = "en"
+defaultContentLanguage = "en"
 enableEmoji = true
 
 [pagination]
@@ -21,7 +21,7 @@ unsafe = true
 author = "Kai"
 info = ["GIS Undergraduate at NEFU", "Tech enthusiast"]
 avatarURL = "images/avatar.jpg"
-dateFormat = "2006年01月02日"
+dateFormat = "2006-01-02"
 since = 2026
 colorScheme = "auto"
 hideColorSchemeToggle = false

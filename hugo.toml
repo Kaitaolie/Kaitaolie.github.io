@@ -19,7 +19,7 @@ unsafe = true
 
 [params]
 author = "Kai"
-info = ["GIS Undergraduate at NEFU", "Tech enthusiast"]
+info = ["GIS Undergraduate", "Tech enthusiast"]
 avatarURL = "images/avatar.jpg"
 dateFormat = "2006-01-02"
 since = 2026

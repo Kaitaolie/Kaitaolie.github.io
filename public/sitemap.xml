@@ -2,39 +2,42 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:8934/tags/c&#43;&#43;/</loc>
+    <loc>http://localhost:1313/tags/c/c&#43;&#43;/</loc>
     <lastmod>2026-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8934/categories/</loc>
+    <loc>http://localhost:1313/categories/</loc>
     <lastmod>2026-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8934/</loc>
+    <loc>http://localhost:1313/</loc>
     <lastmod>2026-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8934/tags/</loc>
+    <loc>http://localhost:1313/tags/</loc>
     <lastmod>2026-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8934/tags/wsl/</loc>
+    <loc>http://localhost:1313/tags/vs-code/</loc>
     <lastmod>2026-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8934/posts/26032301/</loc>
+    <loc>http://localhost:1313/tags/wsl/</loc>
     <lastmod>2026-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8934/categories/%E6%8A%80%E6%9C%AF/</loc>
+    <loc>http://localhost:1313/posts/26032301/</loc>
     <lastmod>2026-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8934/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
+    <loc>http://localhost:1313/categories/%E6%8A%80%E6%9C%AF/</loc>
     <lastmod>2026-03-23T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8934/about/</loc>
+    <loc>http://localhost:1313/tags/%E7%8E%AF%E5%A2%83%E6%90%AD%E5%BB%BA/</loc>
+    <lastmod>2026-03-23T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/about/</loc>
     <lastmod>2026-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8934/home/</loc>
+    <loc>http://localhost:1313/home/</loc>
     <lastmod>2026-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8934/posts/</loc>
+    <loc>http://localhost:1313/posts/</loc>
     <lastmod>2026-03-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:8934/series/</loc>
+    <loc>http://localhost:1313/series/</loc>
   </url>
 </urlset>

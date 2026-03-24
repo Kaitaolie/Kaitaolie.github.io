@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VS Code on Kai&#39;s Tech Log</title>
+    <link>http://localhost:1313/tags/vs-code/</link>
+    <description>Recent content in VS Code on Kai&#39;s Tech Log</description>
+    <generator>Hugo</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 23 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/vs-code/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>基于 WSL 在 VS Code 上配置 C/C&#43;&#43; 开发环境</title>
+      <link>http://localhost:1313/posts/26032301/</link>
+      <pubDate>Mon, 23 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/posts/26032301/</guid>
+      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;&lt;strong&gt;摘要&lt;/strong&gt;：在 Windows 环境下，通过 WSL (Windows Subsystem for Linux) 配合 VS Code，可以获得接近原生的 Linux 开发体验。本文记录如何在 WSL 中配置高效的 C/C++ 开发环境。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;目录&#34;&gt;&#xD;&#xA;  目录&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e7%9b%ae%e5%bd%95&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e5%89%8d%e8%a8%80&#34; &gt;前言&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e4%b8%ba%e4%bb%80%e4%b9%88%e9%80%89%e6%8b%a9-wsl&#34; &gt;为什么选择 WSL？&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#wsl-%e7%9a%84%e9%85%8d%e7%bd%ae&#34; &gt;WSL 的配置&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e9%85%8d%e7%bd%ae%e5%89%8d%e7%9a%84%e5%87%86%e5%a4%87&#34; &gt;配置前的准备&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e5%ae%89%e8%a3%85-wsl&#34; &gt;安装 WSL&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e8%bf%9b%e4%b8%80%e6%ad%a5%e7%9a%84%e5%b7%a5%e4%bd%9c&#34; &gt;进一步的工作&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#vs-code-%e7%9a%84%e5%ae%89%e8%a3%85%e4%b8%8e%e5%9f%ba%e7%a1%80%e9%85%8d%e7%bd%ae&#34; &gt;VS Code 的安装与基础配置&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#vs-code-%e7%9a%84%e5%ae%89%e8%a3%85&#34; &gt;VS Code 的安装&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#vs-code-%e7%9a%84%e5%9f%ba%e7%a1%80%e9%85%8d%e7%bd%ae&#34; &gt;VS Code 的基础配置&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#cc-%e5%bc%80%e5%8f%91%e7%8e%af%e5%a2%83%e7%9a%84%e9%85%8d%e7%bd%ae&#34; &gt;C/C++ 开发环境的配置&lt;/a&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e5%8d%95%e6%96%87%e4%bb%b6%e7%9a%84%e7%bc%96%e8%af%91%e4%b8%8e%e8%bf%90%e8%a1%8c&#34; &gt;单文件的编译与运行&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e5%a4%9a%e6%96%87%e4%bb%b6%e7%9a%84%e7%bc%96%e8%af%91%e4%b8%8e%e8%bf%90%e8%a1%8c&#34; &gt;多文件的编译与运行&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;#%e5%86%99%e5%9c%a8%e6%9c%80%e5%90%8e&#34; &gt;写在最后&lt;/a&gt;&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;前言&#34;&gt;&#xD;&#xA;  前言&#xD;&#xA;  &lt;a class=&#34;heading-link&#34; href=&#34;#%e5%89%8d%e8%a8%80&#34;&gt;&#xD;&#xA;    &lt;i class=&#34;fa-solid fa-link&#34; aria-hidden=&#34;true&#34; title=&#34;Link to heading&#34;&gt;&lt;/i&gt;&#xD;&#xA;    &lt;span class=&#34;sr-only&#34;&gt;Link to heading&lt;/span&gt;&#xD;&#xA;  &lt;/a&gt;&#xD;&#xA;&lt;/h2&gt;&#xD;&#xA;&lt;p&gt;&lt;strong&gt;WSL&lt;/strong&gt; 是 &lt;strong&gt;Windows Subsystem for Linux&lt;/strong&gt;（Windows 的 Linux 子系统）的缩写，是 Windows 上的一项原生功能。通过该功能，你可以实现在 Windows 系统上运行 Linux 环境而不需要开启虚拟机，可谓十分方便。&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>
